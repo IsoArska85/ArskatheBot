@@ -63,13 +63,9 @@ client.on('message', msg => {
                    author:"Arska Bot for your service",
                    url:'https://twitch.tv/'+user._data.user_name
                 }
-        
             }
-
            msg.channel.send(msgJSON);      
-        } 
-       
-
+          }       
        });
      
    }
